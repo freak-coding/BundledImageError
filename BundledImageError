@@ -4,6 +4,8 @@ root = Tk()
 
 root.geometry("500x500")
 
+root.iconbitmap('Specific Image Path Here')
+
 buttonBackground = PhotoImage(file="Specific Image Path Here")
 button = Button(image=buttonBackground)
 
