@@ -4,9 +4,9 @@ root = Tk()
 
 root.geometry("500x500")
 
-root.iconbitmap('Specific Image Path Here')
+root.iconbitmap('C:\Users\Josh\PycharmProjects\imageManipulation\Info Icon.ico')
 
-buttonBackground = PhotoImage(file="Specific Image Path Here")
+buttonBackground = PhotoImage(file="C:\Users\Josh\PycharmProjects\imageManipulation\img0.png")
 button = Button(image=buttonBackground)
 
 root.mainloop()
